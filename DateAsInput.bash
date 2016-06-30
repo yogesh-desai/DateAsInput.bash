@@ -16,7 +16,6 @@ echo "EndDate: "$EndDate
 
 while [ "$StartDate" -le "$EndDate" ] ; 
 do 
-    #echo $src$StartDate
         echo $StartDate #Do it here  what you want
         # Increment Date by one day
     	StartDate=`date +"%Y%m%d" -d "$StartDate + 1 day"`; 

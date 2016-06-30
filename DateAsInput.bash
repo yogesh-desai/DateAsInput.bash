@@ -11,8 +11,8 @@ then
     echo "bash `basename $0` 20160601 20160605"
     exit $E_BADARGS
 fi
-echo "Now: "$StartDate
-echo "End: "$EndDate
+echo "StartDate: "$StartDate
+echo "EndDate: "$EndDate
 
 while [ "$StartDate" -le "$EndDate" ] ; 
 do 
